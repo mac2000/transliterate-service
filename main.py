@@ -42,7 +42,7 @@ class JsonHandler(webapp2.RequestHandler):
         q = self.request.get_all('q')
         items = [Transliterate(i) for i in q]
 
-        resp = json.dumps(items)
+        resp = json.dumps(items, ensure_ascii=False)
         if callback:
             resp = callback + '(' + resp + ')'
 
