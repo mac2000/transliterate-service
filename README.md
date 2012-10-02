@@ -1,6 +1,8 @@
 Transliterate Service
 =====================
 
+http://transliterate-service.appspot.com
+
 This is simples ever service to transliterate text, I made it just to save my time in future scripts where I may need transliteration.
 
 Transliterate API
