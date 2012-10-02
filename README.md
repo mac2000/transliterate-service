@@ -17,7 +17,7 @@ If you using it from javascript `callback` param is available for you.
 Examples
 --------
 
-*application/json*
+**application/json**
 
 http://transliterate-service.appspot.com/transliterate.json?q=Привет+мир
 
@@ -31,7 +31,7 @@ http://transliterate-service.appspot.com/transliterate.json?q=Привет+ми�
 
     transliterate(["Privet mir!"])
 
-*text/xml*
+**text/xml**
 
 http://transliterate-service.appspot.com/transliterate.xml?q=Привет+мир
 
@@ -40,13 +40,13 @@ http://transliterate-service.appspot.com/transliterate.xml?q=Привет+мир
         <item>Privet mir!</item>
     </items>
 
-*plain/text*
+**plain/text**
 
 http://transliterate-service.appspot.com/transliterate.txt?q=Привет+мир
 
     Privet mir!
 
-*jQuery*
+**jQuery**
 
     jQuery.getJSON('http://transliterate-service.appspot.com/transliterate.json?q=Привет+мир&callback=?', function(data){
         alert(data);
