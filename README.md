@@ -15,25 +15,25 @@ If you using it from javascript `callback` param is available for you.
 Examples
 --------
 
-http://transliterate-service.appspot.com/transliterate.json?q=Привет мир!
+[http://transliterate-service.appspot.com/transliterate.json?q=Привет мир!]
 
     ["Privet mir!"]
 
-http://transliterate-service.appspot.com/transliterate.json?q=Привет&q=Мир
+[http://transliterate-service.appspot.com/transliterate.json?q=Привет&q=Мир]
 
     ["Privet", "Mir"]
 
-http://transliterate-service.appspot.com/transliterate.json?q=Привет мир!&callback=transliterate
+[http://transliterate-service.appspot.com/transliterate.json?q=Привет мир!&callback=transliterate]
 
     transliterate(["Privet mir!"])
 
-http://transliterate-service.appspot.com/transliterate.xml?q=Привет мир!
+[http://transliterate-service.appspot.com/transliterate.xml?q=Привет мир!]
 
     <?xml version="1.0" encoding="utf-8"?>
     <items>
         <item>Privet mir!</item>
     </items>
 
-http://transliterate-service.appspot.com/transliterate.txt?q=Привет мир!
+[http://transliterate-service.appspot.com/transliterate.txt?q=Привет мир!]
 
     Privet mir!
