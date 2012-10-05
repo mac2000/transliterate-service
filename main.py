@@ -632,7 +632,16 @@ def Transliterate(text):
         u"ð" : "d",
         u"Ð" : "D",
         u"þ" : "th",
-        u"Þ" : "TH"
+        u"Þ" : "TH",
+        u"Ґ" : "G",
+        u"ґ" : "g",
+        u"Є" : "Ie",
+        u"є" : "ie",
+        u"І" : "I",
+        u"і" : "i",
+        u"Ї" : "I",
+        u"ї" : "i",
+
     }
 
     return strtr(text, dict)
